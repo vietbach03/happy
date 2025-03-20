@@ -1,5 +1,5 @@
 import streamlit as st
-from factorial import fac
+#from factorial import fac
 def main():
     st.title('Vinh co ngu khong???')
     n=st.text_input('Yes or No')
