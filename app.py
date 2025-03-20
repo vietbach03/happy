@@ -4,7 +4,7 @@ def main():
     st.title('Vinh co ngu khong???')
     n=st.text_input('Yes or No')
     if st.button('Kiem Tra'):
-        if n==yes:
+        if n=='yes':
             st.write('NGU THAT')
         else:
             st.write('SAIIII')
